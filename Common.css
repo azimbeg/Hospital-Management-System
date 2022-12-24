@@ -1,0 +1,70 @@
+body{
+    background-image: linear-gradient(180deg,#660066,red);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 102vh;
+}
+
+#loginbox{
+    width: 100%;
+    height: 89vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#loginbox table tr th h2{
+    color: white;
+    text-align: center;
+}
+
+th,td{
+    padding: 7px 10px;
+    color: white;
+}
+#loginbox label{  
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+#loginbox input[type="text"],
+#loginbox input[type="password"],
+#loginbox select{
+    width: 320px;
+    padding: 10px;
+    background-color:rgba(0,0,0,0.3);
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+
+#loginbox button{
+    margin: 25px 0px;
+    border: none;
+    width: 320px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255,0.5);
+}
+#loginbox button:hover{
+    transform: scale(1.06);
+    background-color: lightgreen;
+}
+
+#row{
+    width:1500px;
+}
+
+#logOut{
+    position: fixed;
+    right: 10px;
+    top: 10px;
+
+}
+
+#footer{
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    padding-top: 5px;
+}
